@@ -1,0 +1,18 @@
+###################################################################################################################
+#set( $port = 3000 )
+#set( $host = "localhost" )
+###################################################################################################################
+${SHARP} Python class for run the app
+${SHARP} Created on $today.date ( Time $today.time )
+
+from bottle import run
+import bottle
+
+#foreach( $entity in $selectedEntities )
+import resources.${entity.name}_resource 
+#end
+
+if __name__ == "__main__":
+    run(host='$host', port=$port)
+
+app = bottle.default_app()
