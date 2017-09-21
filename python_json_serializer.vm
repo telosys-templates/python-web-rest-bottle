@@ -3,7 +3,7 @@ ${SHARP} Created on $today.date ( Time $today.time )
 
 import json
 import datetime
-from entities.${entity.name} import ${entity.name}
+from entities.${entity.name}_class import ${entity.name}
 
 
 class ${entity.name}JsonSerializer(object):
