@@ -15,9 +15,6 @@ def init_response():
 @route('/<>', method=['GET', 'POST', 'PUT', 'DELETE'])
 @route('/<>/<>', method=['GET', 'POST', 'PUT', 'DELETE'])
 @route('/<>/<>/<>', method=['GET', 'POST', 'PUT', 'DELETE'])
-@route('/<>/', method=['GET', 'POST', 'PUT', 'DELETE'])
-@route('/<>/<>/', method=['GET', 'POST', 'PUT', 'DELETE'])
-@route('/<>/<>/<>/', method=['GET', 'POST', 'PUT', 'DELETE'])
 @route('/', method=['GET', 'POST', 'PUT', 'DELETE'])
 def error_400():
     response.status = 400
