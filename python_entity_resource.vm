@@ -6,7 +6,7 @@ ${SHARP} Created on $today.date ( Time $today.time )
 
 from bottle import get, post, put, delete, response
 from services import ${entity.name}_service as CommonsEntityService
-from JsonSerializer.${entity.name}_json_serializer import ${entity.name}JsonSerializer
+from serializer.${entity.name}_json_serializer import ${entity.name}JsonSerializer
 from entities.$entity.name import $entity.name
 from resources.commons import common_resource
 
