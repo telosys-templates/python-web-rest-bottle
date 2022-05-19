@@ -6,6 +6,16 @@ This bundle provides templates to generate a REST controller for each entity wit
 
 To launch the server after code generation, run "app_rest.py"
 
+## Variables : 
+
+This bundle requires the following variables :
+- REST_URL_ROOT
+- REST_API_ROOT
+
+Example : 
+ProjectVariable.REST_API_ROOT=/api/v1
+ProjectVariable.REST_URL_ROOT=http://localhost:3000
+
 ## Dependencies : 
 
 This bundle requires the following bundle(s)  :
