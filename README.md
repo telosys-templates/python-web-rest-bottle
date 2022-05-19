@@ -12,7 +12,7 @@ This bundle requires the following variables :
 - REST_URL_ROOT
 - REST_API_ROOT
 
-Example : 
+Example :   
  `ProjectVariable.REST_API_ROOT=/api/v1  `  
  `ProjectVariable.REST_URL_ROOT=http://localhost:3000 `  
 
